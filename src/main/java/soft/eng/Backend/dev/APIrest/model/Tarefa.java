@@ -29,7 +29,7 @@ public class Tarefa {
     public Tarefa() {
     }
 
-    // Getters e Setters para cada atributo
+    // Getters e Setters para cada atributo (mais fácil de entender do que o Lombok, por enquanto)
     public Long getId() {
         return id;
     }

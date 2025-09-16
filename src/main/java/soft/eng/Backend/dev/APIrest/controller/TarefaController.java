@@ -15,8 +15,8 @@ import org.springframework.web.bind.annotation.RestController;
 import soft.eng.Backend.dev.APIrest.model.Tarefa;
 import soft.eng.Backend.dev.APIrest.repository.TarefaRepository;
 
-@RestController // Indica que a classe é um controlador REST
-@RequestMapping({ "/tarefas" }) // Define o caminho base para todos os endpoints deste controlador
+@RestController // Sinaliza que a classe é um controladora do tipo REST
+@RequestMapping({ "/tarefas" }) // Caminho base para todos os endpoints deste controlador
 public class TarefaController {
 
     private final TarefaRepository repository;
